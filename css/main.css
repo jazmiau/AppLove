@@ -3,6 +3,7 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
 }
 
 *:before, *:after {
@@ -13,7 +14,7 @@
 
 body {
   margin: 0 auto;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.71429;
 }
 
@@ -22,11 +23,17 @@ img {
 }
 
 .container {
-  width: 1200px;
+  width: 100%;
   margin-right: auto;
   margin-left: auto;
   padding-left: 14px;
   padding-right: 14px;
+  background: white;
+  height: 98px;
+  overflow: hidden;
+  clear: both;
+  position: fixed;
+  top: 0;
 }
 
 .container:before, .container:after {
@@ -70,4 +77,30 @@ a:hover {
 }
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+.container div a{
+  margin-left: 175px;
+  display: inline-block;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
 
+.logo1{
+  width: 50px;
+  height: 47px;
+  display: inline-block;
+  position: absolute;
+  top: 25px;
+  bottom: 72px;
+  left: 1151px;
+  right: 1207px;
+}
+/*  display: inline-block;
+  background-color: white;
+  border: 1px solid black;
+  height: 98px;
+  width: 100%;
+  overflow: hidden;
+  clear: both;
+  position: fixed;
+  left: 0;
+  top: 0;*/
